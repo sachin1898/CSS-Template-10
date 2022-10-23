@@ -1,0 +1,161 @@
+body{
+    color:rgb(255, 255, 255);
+    margin: 40px 40px;
+    font-family: Poppins;
+    background: url('./images/interio.webp'); 
+    background-size:contain;
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+}
+nav img:nth-child(1){
+    flex-grow: 1;
+}
+nav ul:nth-child(2){
+    flex-grow: 7;
+}
+nav div:nth-child(3){
+    flex-grow: 2;
+}
+.logo{
+    width: 100px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0px 150px;
+    padding-right: 50px;
+}
+.call-us-div {
+    display: flex;
+    width: 65px;
+}
+.call-us-div img{
+    flex-grow: 1;
+    height: 50px;
+    margin-top:10px; 
+}
+.call-us-div div{
+    flex-grow: 9;
+    margin-left: 10px;
+}
+.call-us{
+    margin: 0px;
+    margin-top: 5px;
+}
+.phone-no{
+    margin-top:10px;
+}
+
+hr{
+    margin-left: 340px;
+    background:white;
+    height: 2px;
+    border: 0px;
+}
+
+.content{
+    display: flex;
+    /* column-gap: 150px; */
+}
+
+.left-section{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.description{
+    font-size: 65px
+}
+.learn-more{
+    width: 200px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px 20px ;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.puzzle-div{
+    width: 225px;
+    height: 110px;
+    position: absolute;
+    right: 40px;    
+    top: 70px;
+    padding: 20px;
+    padding-bottom: 15px;
+    background: rgba(214, 214, 214,0.2)
+}
+.puzzle {
+    width: 30px;
+    padding: 5px 30px;
+    border-radius: 25px;
+    background-color: white;
+}
+.line-circle{
+    margin-top: -3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+.line-circle img:nth-child(1){
+    width: 25px;
+    height: 60px;
+}
+.line-circle img:nth-child(2){
+   margin-top: -5px;
+   width: 22px;
+}
+.bulb{
+    width: 25px;
+    padding: 3px 35px;
+    border-radius: 25px;
+    background-color: white; 
+    
+}
+.bulb-div{
+    width: 225px;
+    height: 110px;
+    position: absolute;
+    bottom: -70px;
+    left: -150px;
+    padding: 20px;
+    padding-bottom: 15px;
+    background: rgba(214, 214, 214,0.2)
+
+}
+
+.line-circle2{
+    transform: rotate(270deg);
+    margin-top: -70px;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+.line-circle2 img:nth-child(1){
+    width: 25px;
+    height: 60px;
+}
+.line-circle2 img:nth-child(2){
+   margin-top: -5px;
+   width: 22px;
+}
+.right-section{
+    width: 40vw;
+    position: relative;
+}
+
